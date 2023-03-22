@@ -1,0 +1,27 @@
+p{
+        color:aqua;
+        font-size:50px;
+        font-weight: lighter;
+        font-family:fantasy;
+        width: fit-content;
+        height:fit-content;
+        background-color: blueviolet;
+        text-align: left;
+}
+h1{
+        font-size: 50px;
+        background-color: cadetblue;
+        color:red;
+
+}
+.header{
+        color:aqua;
+        font-size: 40px;
+        font-family:fantasy;
+        height: 500px;
+        text-align: center;
+        background-image: url('../images/web.gif'), url('../images/Y&Z.gif');
+        background-color: aqua;
+        background-repeat:no-repeat;
+        background-size:cover;
+}
