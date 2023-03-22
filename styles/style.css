@@ -10,18 +10,27 @@ p{
 }
 h1{
         font-size: 50px;
-        background-color: cadetblue;
-        color:red;
-
+        color:black;
+        margin: 0;
+}
+h3{
+        font-size: 30px;
+        color:black;
+        margin: 0;
 }
 .header{
-        color:aqua;
-        font-size: 40px;
-        font-family:fantasy;
         height: 500px;
-        text-align: center;
         background-image: url('../images/web.gif'), url('../images/Y&Z.gif');
-        background-color: aqua;
+        background-color: red;
         background-repeat:no-repeat;
         background-size:cover;
+}
+.name{
+        color:red;
+}
+.page-title{
+        color: crimson;
+        text-align: center;
+        font-size: 40px;
+        font-family:fantasy;
 }
