@@ -7,11 +7,21 @@ h1{
         font-size: 50px;
         color:black;
         margin: 0;
+
+}
+h2{
+        font-size: 50px;
+        color:black;
+        
+
 }
 h3{
         font-size: 30px;
         color:red;
         margin: 0;
+        border-style: solid;
+        border-radius: 5px;
+        background-color: aquamarine;
 }
 .header{
         height: 500px;
@@ -22,6 +32,7 @@ h3{
 }
 .skills{
         width:500px;
+        font-weight: 700;
 }
 .name{
         color:red;
@@ -31,4 +42,7 @@ h3{
         text-align: center;
         font-size: 60px;
         font-family:fantasy;
+        
+}
+p {
 }
