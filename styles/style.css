@@ -6,24 +6,17 @@ p{
 }
 h1{
         font-size: 50px;
-        color:black;
+        color:rgb(62, 14, 195);
         margin: 0;
 
 }
 h2{
         font-size: 50px;
         color:black;
-        
+}
 
-}
-.options{
-        text-decoration: none;
 
-}
-li{
-        text-decoration: none;
-        text-orientation: space-between;
-}
+
 .content{
         font-size: 50px;
         font-weight: 900;
@@ -39,8 +32,10 @@ li{
         padding-left: 1280px;
 }
 .header{
+        color:aliceblue;
         height: 700px;
-        background-image: url('../images/web.gif');
+        background: linear-gradient(to right bottom, rgba(235, 8, 23, 0.7), rgba(52, 10, 178, 0.53));
+        /* url('../images/web.gif'); */
         background-color: crimson;
         background-repeat:no-repeat;
         background-size:cover;
@@ -60,7 +55,7 @@ h1{
         color: red;
 }
 .page-title{
-        color: red;
+        color: rgb(248, 243, 243);
         text-align: center;
         font-size: 60px;
         font-family:fantasy;        
