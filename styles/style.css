@@ -1,62 +1,101 @@
-p{
-        font-size:25px;
-        font-weight: lighter;
-        text-align:justify;
-
-}
-h1{
-        font-size: 50px;
-        color:rgb(62, 14, 195);
-        margin: 0;
-
-}
-h2{
-        font-size: 50px;
-        color:black;
-}
-
-
-
-.content{
-        font-size: 50px;
-        font-weight: 900;
-        color:white;
-        margin: 0;
-        border-style: solid;
-        border-radius: 5px;
-        background-color:blueviolet;
-}
-#salutation{
-        font-size: 40px;
-        text-align: left;
-        padding-left: 1280px;
-}
-.header{
+.header-banner{
         color:aliceblue;
-        height: 700px;
-        background: linear-gradient(to right bottom, rgba(235, 8, 23, 0.7), rgba(52, 10, 178, 0.53));
-        /* url('../images/web.gif'); */
+        height: 300px;
+        background: linear-gradient(to right bottom, rgba(235, 8, 23, 0.7), rgba(52, 10, 178, 0.5));
         background-color: crimson;
         background-repeat:no-repeat;
         background-size:cover;
-}
-.skills{
-        width:450px;
-        font-weight: 800;
-        text-align:justify;
-        padding-left: 1280px;
-}
-h1{
-        
-        padding-left: 1280px;
-
-}
-.name{
-        color: red;
-}
+        margin-top: 0;
+        }
 .page-title{
-        color: rgb(248, 243, 243);
-        text-align: center;
-        font-size: 60px;
-        font-family:fantasy;        
+                color: white;
+                text-align: center;
+                font-size: 50px;
+                font-family:fantasy;
+                padding-top: 20px; 
+                margin-bottom: 0;       
+        }
+.options{
+                display: flex;
+                text-decoration: none;
+                text-align: center;
+                
 }
+
+h1{
+                font-size: 45px;
+                color: blueviolet;
+                margin: 0;
+                margin-bottom: 0;
+        }
+h2{
+                font-size: 30px;
+                color:black;
+                text-align: center;
+        }
+p{
+                font-size:20px;
+                font-weight: lighter;
+                text-align:justify;
+        }
+        
+#salutation{
+                font-size: 40px;
+                text-align: left;
+                padding-left: 1280px;
+                margin-top: 0;
+                margin-bottom: 0;
+        }
+#identity{
+                font-size: 40px;
+                text-align: left;
+                padding-left: 1280px;
+                margin-top: 0;
+        }
+        
+.name{
+                color: red;
+                margin: 0;
+        }
+.skills{
+                width:450px;
+                font-weight: 800;
+                text-align:justify;
+                padding-left: 1280px;
+        }
+        
+/* h1{
+                padding-left: 1280px;
+                margin-top: 0;
+        } */
+       
+     
+
+.photo{
+        color:aliceblue;
+        height: 700px;
+        background: url('../images/web.gif');
+        background-color: crimson;
+        background-repeat:no-repeat;
+        background-size:cover;
+        }
+.description h3 {
+                text-align: center;
+                background-color:rgb(35, 174, 86);
+                font-size:35px;
+                font-weight: lighter;
+                text-align: center;
+                color: blueviolet;
+                border-style: solid;
+                border-radius: 5px;
+                margin: 0;        
+        }      
+.description p{
+                background-color:rgb(223, 210, 235);
+                font-size:20px;
+                font-weight: lighter;
+                text-align:justify;              
+                margin: 0;
+                }      
+        
+                
